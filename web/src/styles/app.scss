@@ -1,11 +1,17 @@
 @import "./breakpoints.scss";
 
 @import "~bulma/sass/utilities/_all.sass";
+
+@import "~bulma/sass/base/helpers.sass";
 @import "~bulma/sass/components/navbar.sass";
+@import "~bulma/sass/form/_all.sass";
+@import "~bulma/sass/grid/_all.sass";
 
 @import "./theme.scss";
 
 @import "./scaling.scss";
+
+@import "./form.scss";
 
 @import "./header.scss";
 @import "./footer.scss";
