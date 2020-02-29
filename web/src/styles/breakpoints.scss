@@ -1,0 +1,16 @@
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+$tablet: $md;
+$desktop: $lg;
+$widescreen: $xl;
+$fullhd-enabled: false;
+
+:root {
+  --sm: #{$sm};
+  --md: #{$md};
+  --lg: #{$lg};
+  --xl: #{$xl};
+}

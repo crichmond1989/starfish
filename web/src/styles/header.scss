@@ -1,0 +1,61 @@
+header {
+  nav {
+    &.container {
+      padding-left: 0;
+      padding-right: 0;
+
+      @media (max-width: $lg) {
+        max-width: none;
+      }
+    }
+
+    .navbar-brand {
+      align-items: center;
+
+      img {
+        max-height: 2rem;
+
+        @media (min-width: $md) {
+          max-height: 3rem;
+        }
+
+        @media (min-width: $lg) {
+          max-height: 4rem;
+        }
+      }
+    }
+
+    .navbar-menu a {
+      text-transform: uppercase;
+
+      span {
+        position: relative;
+
+        &:after {
+          content: "";
+          background: var(--primary);
+          height: 2px;
+          left: 0;
+          right: 100%;
+          bottom: -0.25rem;
+          position: absolute;
+          transition: right 0.3s;
+        }
+      }
+
+      &.is-active,
+      &:hover {
+        border-bottom-color: var(--primary);
+        text-decoration: none;
+
+        span:after {
+          right: 0;
+        }
+      }
+    }
+
+    button {
+      font-family: "Catamaran", sans-serif;
+    }
+  }
+}

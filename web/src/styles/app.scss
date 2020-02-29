@@ -1,0 +1,48 @@
+@import "./breakpoints.scss";
+
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/components/navbar.sass";
+
+@import "./theme.scss";
+
+@import "./scaling.scss";
+
+@import "./header.scss";
+@import "./footer.scss";
+
+@import "./about.scss";
+@import "./home.scss";
+
+body {
+  color: #212529;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    header {
+      align-self: flex-start;
+      background: white;
+      box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+      flex: 0 0 auto;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+    }
+
+    main {
+      flex: 1 1 0px;
+    }
+
+    footer {
+      flex: 0 0 auto;
+      margin-top: 5rem;
+    }
+  }
+}

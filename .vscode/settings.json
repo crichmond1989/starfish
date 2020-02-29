@@ -1,0 +1,19 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "editor.formatOnSave": true,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/*.exe": true,
+    "**/CVS": true,
+    "**/build": true,
+    "**/node_modules": true,
+    "**/storybook-static": true
+  },
+  "importSorter.generalConfiguration.configurationFilePath": "./web/import-sorter.json"
+}

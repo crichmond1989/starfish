@@ -1,0 +1,106 @@
+#home-page {
+  article {
+    margin-top: 5rem;
+  }
+
+  > article:first-of-type {
+    margin-top: 0;
+  }
+
+  #banner {
+    height: 50vh;
+    margin: 0;
+    position: relative;
+
+    img {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: right;
+    }
+
+    .container {
+      align-items: flex-end;
+      color: white;
+      display: flex;
+      font-size: 1.25rem;
+      height: 100%;
+      justify-content: center;
+      opacity: 0;
+      padding: 1rem;
+      width: 100%;
+
+      animation: fadein 2s forwards ease-in;
+
+      @keyframes fadein {
+        to {
+          opacity: 1;
+        }
+      }
+
+      @media (min-width: $md) {
+        align-items: center;
+        font-size: 1.75rem;
+        justify-content: flex-start;
+      }
+
+      @media (min-width: $lg) {
+        font-size: 2.5rem;
+      }
+
+      @media (min-width: $xl) {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  #mission,
+  #actionCall {
+    text-align: center;
+    font-family: "Jura", monospace;
+    font-size: 2rem;
+  }
+
+  #stats,
+  #starfishStory {
+    @media (min-width: $lg) {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
+
+  #stats {
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 50%;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-family: "Jura", monospace;
+        color: var(--primary);
+        max-width: 80%;
+        text-align: center;
+      }
+    }
+  }
+
+  #starfishStory {
+    column-gap: 2rem;
+    column-width: 15rem;
+
+    p:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  .actionCallButton {
+    font-family: "Catamaran", sans-serif;
+    font-size: 3.5vh;
+  }
+}

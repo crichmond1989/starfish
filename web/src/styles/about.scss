@@ -1,0 +1,25 @@
+#about-page {
+  figure {
+    margin: 1rem 0 0 0;
+    width: 100%;
+
+    img {
+      display: block;
+      margin-bottom: 0.5rem;
+      width: 100%;
+    }
+
+    figcaption {
+      color: gray;
+      font-size: 0.75rem;
+      font-style: italic;
+    }
+
+    @media (min-width: $md) {
+      float: right;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+      width: 15rem;
+    }
+  }
+}

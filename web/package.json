@@ -1,0 +1,50 @@
+{
+  "name": "starfish_website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "classnames": "^2.2.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "typeface-catamaran": "^0.0.72",
+    "typeface-jura": "^1.1.4",
+    "typeface-montserrat": "^0.0.75"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.9",
+    "@types/jest": "25.1.3",
+    "@types/node": "13.7.7",
+    "@types/react": "16.9.23",
+    "@types/react-dom": "16.9.5",
+    "@types/react-router": "^5.1.3",
+    "@types/react-router-dom": "^5.1.3",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.19.1",
+    "prettier-tslint": "^0.4.2",
+    "react-scripts": "^3.4.0",
+    "tslint": "5.11.0",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
